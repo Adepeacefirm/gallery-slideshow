@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+*, body {
+  font-family: 'Libre Baskerville', sans-serif;
+}
+
+@theme {
+  --color-grey400: hsl(0, 0%, 49%)
+}

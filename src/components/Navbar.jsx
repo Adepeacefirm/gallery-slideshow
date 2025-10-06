@@ -52,7 +52,7 @@ const Navbar = () => {
           onClick={() => setSlideshow((prev) => !prev)}
           className="w-[50%] text-[0.6rem] tracking-wider text-right font-medium text-grey400 cursor-pointer"
         >
-          <p>{slideshow ? "STOP SLIDESHOW" : "START SLIDESHOW"}</p>
+          <button type="button">{slideshow ? "STOP SLIDESHOW" : "START SLIDESHOW"}</button>
         </div>
       </div>
     </header>
